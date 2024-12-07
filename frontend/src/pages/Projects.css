@@ -1,0 +1,35 @@
+/* Add the 3D Flip Effect and Animation */
+.card {
+  perspective: 1000px;  /* Set the 3D perspective for the card */
+}
+
+.card-inner {
+  transition: transform 1s; /* Set transition for the flip effect */
+  transform-style: preserve-3d; /* Make sure the child elements are rendered in 3D space */
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg); /* Apply 180-degree rotation when hovered */
+}
+
+/* Front side of the card */
+.card-front {
+  position: absolute;
+  backface-visibility: hidden; /* Prevent the front from showing when flipped */
+}
+
+/* Back side of the card */
+.card-back {
+  position: absolute;
+  backface-visibility: hidden; /* Prevent the back from showing when flipped */
+  transform: rotateY(180deg); /* Start with the back side hidden */
+}
+
+/* Optional: Styling for the back (title) */
+.card-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aca0a0; /* Adjust the color to your liking */
+  font-size: 1.25rem; /* Adjust text size */
+}
