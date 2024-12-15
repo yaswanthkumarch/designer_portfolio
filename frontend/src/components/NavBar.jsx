@@ -94,11 +94,26 @@ const NavBar = () => {
             <nav className="bg-gray-100 px-4 py-4 md:px-8 lg:px-16 shadow-md fixed w-full top-0 z-40">
                 <div className="flex justify-between items-center">
                     {/* Logo Section */}
-                    <Link to="/" className="text-2xl font-light text-gray-700">
+                        {/*<Link to="/" className="text-2xl font-light text-gray-700">
                         <span className="block leading-none">aakriti</span>
                         <span className="block leading-none">saraf</span>
                         <span className="block leading-none">design</span>
-                    </Link>
+                    </Link>*/}
+                        <img
+
+src="https://via. placeholder.com
+
+/150"
+
+alt="Example Image"
+
+style={{ width: "30px",
+
+height: "30px" }}
+
+/>
+
+                        
 
                     {/* Menu Button for Mobile */}
                     <div className="md:hidden">
