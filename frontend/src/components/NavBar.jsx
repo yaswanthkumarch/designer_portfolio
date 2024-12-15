@@ -95,7 +95,7 @@ const NavBar = () => {
                 <div className="flex justify-between items-center">
                     {/* Logo Section */}
                     <Link to="/" className="text-2xl font-light text-gray-700">
-                        <span className="block leading-none">aakriti</span>
+                        <span className="block leading-none">madhu</span>i</span>
                         <span className="block leading-none">saraf</span>
                         <span className="block leading-none">design</span>
                     </Link>
